@@ -1,5 +1,4 @@
 # Shopping_Cart_System
-# Project Name: Shopping Cart System
 
 ## Overview
 
