@@ -167,22 +167,6 @@ inv.add_product(p1)
 inv.add_categories(c2)
 
 
-
-# Your existing classes and code here...
-
-# Create instances of your classes
-p1 = Product(product_id=1, name="prod1", price=10, category_id=12, description="hahaha", quantity_in_stock=1)
-c1 = Category(category_id=1, name="c21")
-c2 = Category(category_id=12, name="c1")
-sc = ShoppingCart()
-inv = Inventory()
-
-# Add instances to your inventory and cart
-c1.groupbyCt(p1)
-sc.add_to_cart(p1, 3)
-inv.add_product(p1)
-inv.add_categories(c2)
-
 # Modify SaveJson function to accept and save multiple instances
 def SaveJson(products, categories, shopping_cart, inventory):
     data_to_save = {
